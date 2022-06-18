@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeleBot", "TeleBot\TeleBot.csproj", "{B1C7D11E-7FCA-4FB8-8494-26D1E2DD2A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleBot.DataAcces", "DataAcces\TeleBot.DataAcces.csproj", "{7EA9C3EC-E3E0-462E-86A8-0A1D3AF396EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleBot.Domain", "Domain\TeleBot.Domain.csproj", "{6C6A20A9-8ECF-414B-950F-45E7D55B0878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleBot.Application", "TeleBot.Application\TeleBot.Application.csproj", "{D1A7A424-9605-4F90-BC4C-22B87F171C41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1C7D11E-7FCA-4FB8-8494-26D1E2DD2A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C7D11E-7FCA-4FB8-8494-26D1E2DD2A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C7D11E-7FCA-4FB8-8494-26D1E2DD2A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C7D11E-7FCA-4FB8-8494-26D1E2DD2A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA9C3EC-E3E0-462E-86A8-0A1D3AF396EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA9C3EC-E3E0-462E-86A8-0A1D3AF396EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA9C3EC-E3E0-462E-86A8-0A1D3AF396EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA9C3EC-E3E0-462E-86A8-0A1D3AF396EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6A20A9-8ECF-414B-950F-45E7D55B0878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6A20A9-8ECF-414B-950F-45E7D55B0878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6A20A9-8ECF-414B-950F-45E7D55B0878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6A20A9-8ECF-414B-950F-45E7D55B0878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A7A424-9605-4F90-BC4C-22B87F171C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A7A424-9605-4F90-BC4C-22B87F171C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A7A424-9605-4F90-BC4C-22B87F171C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A7A424-9605-4F90-BC4C-22B87F171C41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DCA3010-67A3-4013-94A0-A8CD858E847A}
+	EndGlobalSection
+EndGlobal
